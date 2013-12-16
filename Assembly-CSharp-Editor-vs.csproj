@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6988E127-17EE-97A6-FC15-4AE40ED8ACA9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FXLab\Scripts\Editor\CopyWaterMaterialEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXCameraEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXCaptureScreenEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXMaterialEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXMaterialHelper.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXPostProcessEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXRenderTextureEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXTextureAssignerEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\FXTextureEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\GlassMaterialEditor.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\LayerDrawer.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\Templater.cs" />
+     <Compile Include="Assets\FXLab\Scripts\Editor\WaterMaterialEditor.cs" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Refraction_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\FXLab.cginc" />
+     <None Include="Assets\FXLab\Shader\Water\Water.cginc" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Refraction_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Glass\Refraction.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Refraction_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Refraction_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Glass\Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\Luminance.shader" />
+     <None Include="Assets\FXLab\readme.txt" />
+     <None Include="Assets\FXLab\Shader\Water\Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\Noise.shader" />
+     <None Include="Assets\FXLab\Shader\Shockwave\Shockwave.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection.shader" />
+     <None Include="Assets\FXLab\Shader\Distortion.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\DepthOfField.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\SSAO.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Refraction_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Refraction_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\UnderWater.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\Scanlines.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\Pixelize.shader" />
+     <None Include="Assets\FXLab\Shader\Glass\Refraction_Blurred.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Particles\Alpha.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Glass\Simple.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Refraction_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Dispersion.shader" />
+     <None Include="Assets\FXLab\Samples\Shader\FireBall.shader" />
+     <None Include="Assets\FXLab\Shader\Glass\Refraction_Dispersion_Blurred.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\Bloom.shader" />
+     <None Include="Assets\FXLab\Resources\Shader\DisplayFloatTexture.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Refraction_Decal.shader" />
+     <None Include="Assets\FXLab\Resources\Shader\WorldNormal.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\Vignette.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Refraction.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Refraction.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Refraction_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Refraction_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Refraction.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Refraction.shader" />
+     <None Include="Assets\FXLab\Resources\Shader\DisplayTexture.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Decal.shader" />
+     <None Include="Assets\FXLab\Resources\Shader\PreciseGrabHeight.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Refraction.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Refraction_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Refraction_Dispersion.shader" />
+     <None Include="Assets\FXLab\Resources\Shader\PreciseGrabDepth.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\MotionBlur.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Simple.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_FlowMap_Reflection_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\DisplayTexture.shader" />
+     <None Include="Assets\FXLab\Samples\Shader\BlackHoleDiffuse.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Particles\Add.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Depth_Reflection_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\LightShafts.shader" />
+     <None Include="Assets\FXLab\Shader\Water\Reflection_Refraction.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Refraction_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\Water\FlowMap_Reflection_Dispersion_Decal.shader" />
+     <None Include="Assets\FXLab\Shader\PostProcessing\SSAA.shader" />
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{5231B60D-F82E-469F-6975-5B2D205B11A9}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

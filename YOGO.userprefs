@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CameraScript.cs" Line="24" Column="11" />
+      <File FileName="Assets\Scripts\CreateBlock.cs" Line="101" Column="25" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="35" Column="26" />
+      <File FileName="Assets\Scripts\MovementPlatform.cs" Line="88" Column="6" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="25" Column="36" />
+      <File FileName="Assets\Scripts\AudioCompiler.cs" Line="26" Column="3" />
+      <File FileName="Assets\Scripts\DangerBlock.cs" Line="35" Column="29" />
+      <File FileName="Assets\Scripts\MessageHolder.cs" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\MenuBehavior.cs" Line="13" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
